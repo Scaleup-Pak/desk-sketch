@@ -3162,11 +3162,11 @@ img.h600 {
 }
 .site-header {
   width: 1512px;
-  height: 139px;
+  height: 129px;
   justify-content: space-between;
-  padding-top: 32px;
+  padding-top: 28px;
   padding-right: 100px;
-  padding-bottom: 32px;
+  padding-bottom: 28px;
   padding-left: 100px;
   background-color: transparent;
   max-width: 100%; /* Ensure it doesn't overflow on smaller screens */

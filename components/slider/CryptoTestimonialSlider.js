@@ -20,7 +20,7 @@ export default function CryptoTestimonialSlider() {
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}
                 slidesPerView={3}
-                spaceBetween={30}
+                spaceBetween={60}
                 centeredSlides={true}
                 loop={true}
                 autoplay={{

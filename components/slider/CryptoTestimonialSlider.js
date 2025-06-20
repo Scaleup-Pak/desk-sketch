@@ -10,9 +10,10 @@ export default function CryptoTestimonialSlider() {
         backgroundColor: "#FFFFFF",
         borderRadius: "10px",
         boxShadow: "0 4px 10px rgba(0, 0, 0, 0.05)",
-        padding: "20px",
+        padding: "15px",
         height: "350",
         width: 450,
+        margin: "10 10 10 10",
     };
 
     return (

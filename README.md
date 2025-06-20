@@ -1,6 +1,4 @@
-# Sala - Next.js Startup & SaaS Template
-
-A modern, responsive Next.js template designed for startups, SaaS companies, and IT services. This template includes multiple pre-designed pages, components, and layouts to quickly build professional websites.
+# Desk-Sketch
 
 ## Features
 

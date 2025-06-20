@@ -8883,6 +8883,17 @@ form.checkout-coupon input[type=text] {
 .block-testimonial.item-border .item {
   border: 1px solid var(--sala-border-line, #eeeeee);
 }
+.move-social-right {
+    margin-left: auto;      /* push to the right */
+    margin-right: 15px;     /* move 15px further right */
+    width: fit-content;
+}
+
+.center-resources {
+    display: flex;
+    justify-content: center;
+}
+
 .block-testimonial.layout-05 .item {
   background-color: var(--sala-shade-background, #F8F9FC);
   padding: 0 170px 0 230px;

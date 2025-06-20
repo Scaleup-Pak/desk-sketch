@@ -11,7 +11,7 @@ export default function Saas_Section1() {
                     <div className="button-wrap align-center">
                         <Link href="/contact-01" className="button fullfield" title="Start 14 days Free">Start 14 days Free</Link>
                     </div>
-                    <p className="note align-center">No creadit card requiment</p>
+                    <p className="note align-center">No credit card requiment</p>
                     <div className="images layout-05 mt60">
                         <div className="inner">
                             <img className="img01 wow animate__animated animate__fadeInUp" src="/assets/images/saas-01.png" alt="Image" />

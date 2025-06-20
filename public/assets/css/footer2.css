@@ -1,0 +1,116 @@
+/* Footer2 Styles - Exact match to image */
+.footer.background-blue {
+    background-color: #0061FF;
+    color: #FFFFFF;
+    padding: 0px 0 0 0;
+}
+
+.footer.background-blue h6 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer.background-blue .footer-item p {
+    color: #FFFFFF;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+/* Resource and Social Links */
+.footer.background-blue .footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer.background-blue .footer-menu ul li {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.footer.background-blue .footer-menu ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Arrow icon before links */
+.footer.background-blue .footer-menu ul li a span {
+    display: flex;
+    align-items: center;
+}
+
+.footer.background-blue .footer-menu ul li a span .arrow-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.footer.background-blue .footer-menu ul li a span .arrow-icon:before {
+    content: "›";
+    font-size: 20px;
+    position: absolute;
+    top: -9px;
+    left: 0;
+}
+
+/* Footer Bottom */
+.footer.background-blue .footer-bottom {
+    background-color: #000000;
+    margin-top: -1px;
+    padding: 0px 0;
+}
+
+.footer.background-blue .footer-bottom .copyright {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.footer.background-blue .footer-bottom .copyright .copyright-icon {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.footer.background-blue .footer-bottom .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer.background-blue .footer-bottom .menu ul li {
+    margin-left: 30px;
+}
+
+.footer.background-blue .footer-bottom .menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer.background-blue {
+        padding: 0px 0 0 0;
+    }
+    
+    .footer.background-blue .footer-bottom .inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer.background-blue .footer-bottom .menu ul {
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    .footer.background-blue .footer-bottom .menu ul li:first-child {
+        margin-left: 0;
+    }
+}

@@ -56,7 +56,7 @@ export default function Saas_Section3() {
         },
         image: {
             width: '100%',
-            maxWidth: '650px',
+            maxWidth: '100%',
             borderRadius: '8px',
             margin: '0 auto',
             display: 'block'
@@ -67,8 +67,12 @@ export default function Saas_Section3() {
         <>
             <section style={customStyles.section}>
                 <div style={customStyles.container}>
+                    <div className="heading align-center mb32" style={{ maxWidth: '100%' }}>
+                        <h2 className="heading-title size-xl mt80" style={{ whiteSpace: 'nowrap' }}>Sell Smarter & Build Quicker.</h2>
+                        <div className="heading-desc size-l mb32">Give instant estimates to clients, dummy proof plans to contractors, and so much more!&nbsp;</div>
+                    </div>
                     <div className="row flex-align-c">
-                        <div className="col-lg-6 order-1">
+                        <div className="col-lg-5 order-1">
                             <div style={{padding: '20px 20px 20px 0'}}>
                                 <span style={customStyles.tagline}>10X TURNAROUND</span>
                                 <h2 style={customStyles.title}>Features that help you build quicker.</h2>
@@ -83,7 +87,7 @@ export default function Saas_Section3() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 order-2">
+                        <div className="col-lg-7 order-2">
                             <div style={customStyles.imageContainer}>
                                 <img 
                                     className="wow animate__animated animate__fadeInUp"

@@ -2178,6 +2178,12 @@ table th {
   margin: 0 auto;
   position: relative;
 }
+.images.layout-05 .img01 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
 .images.layout-05 .img02 {
   position: absolute;
   width: 5%;
@@ -7257,6 +7263,11 @@ form.checkout-coupon input[type=text] {
   height: 54px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+/* Hero section: first three client logos have extra padding in their assets */
+.hero-clients .content li:nth-child(-n+3) img {
+  height: 82px;
 }
 .clients.border-bottom {
   border: 0 !important;

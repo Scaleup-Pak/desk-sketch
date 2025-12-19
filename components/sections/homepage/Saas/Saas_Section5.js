@@ -56,7 +56,7 @@ export default function Saas_Section3() {
         },
         image: {
             width: '100%',
-            maxWidth: '650px',
+            maxWidth: '100%',
             borderRadius: '8px',
             margin: '0 auto',
             display: 'block'
@@ -68,7 +68,7 @@ export default function Saas_Section3() {
             <section style={customStyles.section}>
                 <div style={customStyles.container}>
                     <div className="row flex-align-c">
-                        <div className="col-lg-6 order-1">
+                        <div className="col-lg-5 order-1">
                             <div style={{padding: '20px 20px 20px 0'}}>
                                 <span style={customStyles.tagline}>Fully Personalized</span>
                                 <h2 style={customStyles.title}>Tailored to your building methodologies and materials.</h2>
@@ -76,13 +76,13 @@ export default function Saas_Section3() {
                                         Tired of using software that forces you to use their materials and limits the way you build decks? DeckSketch only outputs drawings and takeoffs based on your customizations!                                </p>
                                 <div className="button-wrap">
                                     <Link href="/contact-01" style={customStyles.featureButton}>
-                                        Start Customizing →
+                                        Start Customizing
                                         <i className="las la-long-arrow-alt-right" style={customStyles.arrow}></i>
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 order-2">
+                        <div className="col-lg-7 order-2">
                             <div style={customStyles.imageContainer}>
                                 <img 
                                     className="wow animate__animated animate__fadeInUp"

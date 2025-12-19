@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import BackToTop from '../elements/BackToTop';
-import SwitchDarkLight from '../elements/SwitchDarkLight';
 
 import Footer1 from './Footer/Footer1';
 import Footer2 from './Footer/Footer2';
@@ -9,6 +8,11 @@ import PageHead from './PageHead';
 
 export default function Layout({ headerLayout, footerLayout, children, siteContentClass, pageTitle, pageTitleSub, pageTitleDesc, pageTitleBtn, headerClass }) {
     useEffect(() => {
+
+        // Force light mode by default
+        if (typeof document !== 'undefined') {
+            document.body.classList.remove('sala-dark-scheme');
+        }
 
         const WOW = require('wowjs');
         window.wow = new WOW.WOW({
@@ -51,7 +55,6 @@ export default function Layout({ headerLayout, footerLayout, children, siteConte
                 {footerLayout == 2 ? < Footer2 /> : null}
 
                 <BackToTop />
-                <SwitchDarkLight />
             </div>
         </>
     )

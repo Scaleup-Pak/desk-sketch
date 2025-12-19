@@ -8,7 +8,7 @@ export default function Saas_Section7() {
                 <div className="container">
                     <div className="heading align-center">
                         <h2 className="heading-title">Clients Love Us</h2>
-                        <div className="heading-desc">Check out what real customers are saying about DeckSketch:</div>
+                        <div className="heading-desc mb-22">Check out what real customers are saying about DeckSketch:</div>
                     </div>
                 </div>
                 

@@ -56,7 +56,7 @@ export default function Saas_Section3() {
         },
         image: {
             width: '100%',
-            maxWidth: '650px',
+            maxWidth: '100%',
             borderRadius: '8px',
             margin: '0 auto',
             display: 'block'
@@ -69,7 +69,7 @@ export default function Saas_Section3() {
                 <div className="row flex-align-c">
                     
                     {/* Image on left */}
-                    <div className="col-lg-6 order-1">
+                    <div className="col-lg-7 order-1">
                         <div style={customStyles.imageContainer}>
                             <img 
                                 className="wow animate__animated animate__fadeInUp"
@@ -81,9 +81,9 @@ export default function Saas_Section3() {
                     </div>
 
                     {/* Text on right */}
-                    <div className="col-lg-6 order-2">
+                    <div className="col-lg-5 order-2">
                         <div style={{ padding: '20px 20px 20px 0' }}>
-                            <span style={customStyles.tagline}>10X TURNAROUND</span>
+                            <span style={customStyles.tagline}>Look Professional</span>
                             <h2 style={customStyles.title}>Get beautiful custom branded <br></br> drawings & a company portal.</h2>
                             <p style={customStyles.description}>
                                 Show your clients why you are the best builder in your area. Add to your professionalism by giving them same-day estimates, plans, and more all branded to your business.

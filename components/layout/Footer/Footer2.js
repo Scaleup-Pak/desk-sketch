@@ -34,14 +34,14 @@ export default function Footer2() {
                                                 </Link>
                                             </li>
                                             <li style={{ opacity: '0.76', display: 'flex', alignItems: 'center' }}>
-                                                <Link href="/sign-in" title="Login">
+                                                <a href="https://app.decksketch.ai/auth/signin" title="Login">
                                                     <span><i className="arrow-icon"></i> Login</span>
-                                                </Link>
+                                                </a>
                                             </li>
                                             <li style={{ opacity: '0.76', display: 'flex', alignItems: 'center' }}>
-                                                <Link href="/sign-up" title="Register">
+                                                <a href="https://app.decksketch.ai/auth/signup" title="Register">
                                                     <span><i className="arrow-icon"></i> Register</span>
-                                                </Link>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>

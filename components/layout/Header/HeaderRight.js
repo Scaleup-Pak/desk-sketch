@@ -6,8 +6,8 @@ export default function HeaderRight() {
             <div className="header-right flex flex-align-c flex-content-e">
                 
                  <div className="customer">
-                    <Link
-                        href="/sign-in"
+                    <a
+                        href="https://app.decksketch.ai/auth/signin"
                         style={{
                             outline: '1.5px solid black',
                             borderRadius: '4px',
@@ -51,15 +51,15 @@ export default function HeaderRight() {
 
                         {/* Login Text */}
                         <span>Log In</span>
-                    </Link>
+                    </a>
                 </div>
 
                 
                 {/* <div className="customer">
-                    <Link href="/sign-in" style={{ outline: '1.5px solid black', borderRadius: '4px', padding: '11px 42px' }}>
+                    <a href="https://app.decksketch.ai/auth/signin" style={{ outline: '1.5px solid black', borderRadius: '4px', padding: '11px 42px' }}>
                         <i className="las la-user-circle" />
                         <span>Log In</span>
-                    </Link>
+                    </a>
                 </div> */}
 
                 {/* <div className="buttons">

@@ -21,7 +21,7 @@ export default function CryptoTestimonialSlider() {
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}
                 slidesPerView={3}
-                spaceBetween={60}
+                spaceBetween={48}
                 centeredSlides={true}
                 loop={true}
                 autoplay={{
@@ -39,27 +39,27 @@ export default function CryptoTestimonialSlider() {
                 breakpoints={{
                     320: {
                         slidesPerView: 1,
-                        spaceBetween: 30,
+                        spaceBetween: 16,
                     },
                     575: {
                         slidesPerView: 2,
-                        spaceBetween: 30,
+                        spaceBetween: 20,
                     },
                     767: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
+                        spaceBetween: 24,
                     },
                     991: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
+                        spaceBetween: 24,
                     },
                     1199: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
+                        spaceBetween: 24,
                     },
                     1350: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
+                        spaceBetween: 24,
                     },
                 }}
                 className="swiper-wrapper"
@@ -141,9 +141,9 @@ export default function CryptoTestimonialSlider() {
                               <h3 style={{alignItems: "center"}}>It was a very good experience</h3>
                         </div>
 
-                        <p style={{ textAlign: "center", margin: 0 }}>"Easy to follow but incredibly insightful tutorials. Makes learning new software and techniques and real pleasure everyday! Keep up the good work"</p>
- 
-=                     </div>
+                                <p style={{ textAlign: "center", margin: 0 }}>"Easy to follow but incredibly insightful tutorials. Makes learning new software and techniques and real pleasure everyday! Keep up the good work"</p>
+
+                            </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
                     <div className="item" style={cardStyle}>

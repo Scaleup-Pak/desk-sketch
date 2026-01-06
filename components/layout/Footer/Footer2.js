@@ -85,7 +85,7 @@ export default function Footer2() {
                     <div className="container">
                         <div className="inner flex flex-content-sb flex-align-c">
                             <div className="copyright">
-                                <span className="copyright-icon">©</span> 2025 DeckSketch AI, LLC - All rights reserved
+                                <span className="copyright-icon">©</span> 2026 DeckSketch AI, LLC - All rights reserved
                             </div>
                             <div className="menu">
                                 <ul>
